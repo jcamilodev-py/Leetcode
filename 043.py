@@ -23,8 +23,6 @@ print(s.intersection([[1,2,3],[4,5,6]]))
 
 
 
-
-
 #Dado un arreglo bidimensional de enteros nums donde nums[i]
 #es un arreglo no vacío de enteros positivos distintos, devuelve
 #la lista de enteros que están presentes en cada arreglo de nums ordenados en orden ascendente.

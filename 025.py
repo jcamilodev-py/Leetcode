@@ -3,7 +3,7 @@ class Solution:
         contador = nums[0]
         for i in range(len(nums)):
             if abs(nums[i])< abs(contador):
-                contador =nums[i]
+                contador = nums[i]
             elif abs(nums[i]) == abs(contador):
                 contador = max(nums[i], contador)
         return contador
