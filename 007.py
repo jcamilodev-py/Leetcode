@@ -8,7 +8,7 @@ class TreeNode(object):
 
 class Solution(object):
     def postorderTraversal(self, root):
-        resultado= []
+        resultado = []
         """
         :type root: Optional[TreeNode]
         :rtype: List[int]
