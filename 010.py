@@ -1,27 +1,18 @@
-class Solution(object):
-    def threeConsecutiveOdds(self, arr):
-        """
-        :type arr: List[int]
-        :rtype: bool
-        """
-        left = 0
-        mid = 1
-        rigth = 2
-        while rigth <= len(arr)-1:        
-            # if arr[left] < arr[mid] and arr[mid]< arr[rigth]:
-            if arr[left] %2==1 and arr[mid] %2==1 and arr[rigth] %2 == 1:
+from typing import List
+
+class Solution:
+    def threeConsecutiveOdds(self, arr: List[int]) -> bool:
+        ans = 0
+        for i in arr:
+            if i % 2 !=0:
+                ans +=1
+                if ans == 3:
                     return True
             else:
-                left+=1
-                mid+=1
-                rigth+=1
-            # else:
-            #     left+=1
-            #     mid+=1
-            #     rigth+=1
+                ans = 0
         return False
     
-solu = Solution()
-print(solu.threeConsecutiveOdds([1,2,3]))
+s = Solution()
+print(s.threeConsecutiveOdds([1,2,34,3,4,5,7,23,12]))
             
                 
