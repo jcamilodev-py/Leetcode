@@ -6,4 +6,7 @@ class Solution:
             else:
                 n /=4
         return False
+    
+s = Solution()
+print(s.isPowerOfFour(16))
 
