@@ -1,25 +1,60 @@
-LeetCode Solutions
+# LeetCode Solutions
 
-Repositorio con mis soluciones a problemas de LeetCode para practicar algoritmos, estructuras de datos y preparación para entrevistas técnicas.
+A curated collection of **193+ LeetCode problem solutions** written in Python, focused on clean, readable code and strong algorithmic thinking.
 
-🚀 Lenguaje principal
+---
 
-- Python
+## About
 
-🎯 Objetivo:
+This repository documents my consistent practice across a wide range of LeetCode problems. Each solution is written with clarity and efficiency in mind — not just to pass tests, but to demonstrate a solid understanding of the underlying concepts.
 
-- Mejorar habilidades en resolución de problemas
+---
 
-- Practicar patrones de algoritmos
+## Stats
 
-- Prepararme para entrevistas técnicas
+| Metric | Value |
+|---|---|
+| Total solutions | 193+ |
+| Primary language | Python |
+| Focus areas | Algorithms, Data Structures, Interview Prep |
 
-- Documentar mi progreso como desarrollador
+---
 
-Cómo ejecutar un archivo:
+## Topics Covered
 
-python nombre_del_archivo.py
+- Arrays & Strings
+- Linked Lists
+- Trees & Graphs
+- Dynamic Programming
+- Sliding Window & Two Pointers
+- Stack & Queue
+- Binary Search
+- Math & Bit Manipulation
+- Backtracking
+- Sorting & Searching
 
-📄 Licencia
+---
 
-MIT License
+## How to Run
+
+```bash
+python 001.py
+```
+
+Each file is self-contained and can be run independently.
+
+---
+
+## Why This Repository
+
+Consistent practice is the foundation of technical excellence. This repo reflects my commitment to:
+
+- Sharpening problem-solving skills under constraints
+- Understanding algorithmic patterns, not just memorizing solutions
+- Building a strong foundation for technical interviews at top companies
+
+---
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
