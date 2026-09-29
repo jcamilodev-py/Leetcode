@@ -27,7 +27,7 @@ class Solution:
             if not r:
                 node.right = None
 
-            return l and r
+            return l or r
 
         return root if dfs(root, 0) else None
 
