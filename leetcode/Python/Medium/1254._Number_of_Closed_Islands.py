@@ -13,7 +13,7 @@ class Solution:
 
             visited.add((i, j))
 
-            return dfs(i - 1, j) and dfs(i + 1, j) and dfs(i, j - 1) and dfs(i, j + 1)
+            return dfs(i - 1, j) & dfs(i + 1, j) & dfs(i, j - 1) & dfs(i, j + 1)
 
 
         ans = 0
